@@ -29,7 +29,7 @@ describe('App', () => {
   it('renders app title and description', () => {
     render(<App />);
 
-    expect(screen.getByText('Modern Todo App')).toBeInTheDocument();
+    expect(screen.getByText('My Todo App')).toBeInTheDocument();
     expect(screen.getByText(/Experience the future of task management/)).toBeInTheDocument();
   });
 
